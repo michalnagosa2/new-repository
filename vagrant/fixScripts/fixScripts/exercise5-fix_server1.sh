@@ -1,3 +1,5 @@
+#! /bin/bash
+
 sudo su
 ssh-keygen -t rsa -b 4096
 ls ~/.ssh/id_*

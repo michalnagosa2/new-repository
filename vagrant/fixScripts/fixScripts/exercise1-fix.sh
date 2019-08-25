@@ -1,5 +1,5 @@
-Steps to resolve the issue:
+#! /bin/bash
 
-1. sudo su 
-2. iptables -F
-3. reboot
+sudo su 
+iptables -F
+reboot

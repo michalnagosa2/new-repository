@@ -1,6 +1,5 @@
+#! /bin/bash
+
 sudo su
-ssh-keygen -t rsa -b 4096
-ls ~/.ssh/id_*
-ssh-copy-id root@server2
-vagrant
-ssh root@server2
+cd /etc/
+sed -i 'server2 192.168.100.11' hosts

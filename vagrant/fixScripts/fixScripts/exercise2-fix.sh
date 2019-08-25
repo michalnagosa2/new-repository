@@ -1,5 +1,5 @@
-Steps to resolve the issue:
+#! /bin/bash
 
-1. sudo su
-2. I went to /etc/hosts
-3. I put this line: 127.0.0.1 www.ascii-art.de as a comment
+sudo su
+nano /etc/hosts
+sed -i '/www/d' hosts

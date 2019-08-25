@@ -20,4 +20,3 @@ du -bc *
 var=$( du -bc * | tail -n1 | cut -f1)
 echo $var
 EOF
-
